@@ -1,0 +1,19 @@
+.marker {
+  width: 48px;
+  background-color: white;
+  border: 1px solid #999;
+  border-radius: 2px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.selected {
+  background-color: yellow;
+  border: 1px solid black;
+  width: 48px;
+  border-radius: 2px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bolder;
+}

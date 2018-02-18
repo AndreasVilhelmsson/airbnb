@@ -1,0 +1,26 @@
+.flat {
+  text-align: center;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.flat:hover {
+  opacity: 0.9;
+}
+.flat-picture {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.flat-title {
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: "Roboto", Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  text-align: left;
+}
+.span {
+  font-weight: normal;
+  color: #484848;
+}

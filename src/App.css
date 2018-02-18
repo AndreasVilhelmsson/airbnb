@@ -1,0 +1,79 @@
+/* essential css */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+
+p {
+  font-size: 16;
+}
+
+.app {
+  display: grid;
+  grid-template-areas:
+    "main main main map "
+    "footer footer footer map";
+}
+
+.main {
+  flex-basis: 65%;
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-content: center;
+}
+.map {
+  width: 500px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  grid-area: map;
+}
+.search-container {
+  margin: 0.5rem 0.5rem;
+}
+
+.flats {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0.5rem;
+  padding: 10px;
+  justify-content: center;
+}
+
+GoogleMapReact {
+  height: 100%;
+}
+
+.header {
+  grid-area: header;
+}
+
+.item5 {
+  grid-area: footer;
+}
+
+/* .grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+} */
+.search {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.search input {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+  color: #999;
+  width: 100%;
+}
