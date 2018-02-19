@@ -1,6 +1,10 @@
 # Air-bnb
 
-My version of Air-bnb
+Name: **Andreas Vilhelmsson**
+
+Education: JavaScript Developer at Jensen Education
+
+This is a school project and my idea was to recreate Air-bnb but in a smaller version. The functionalities are basic to search for a department in a map to find its location
 
 ## Technologies
 
